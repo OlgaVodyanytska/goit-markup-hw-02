@@ -10,10 +10,12 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
 a {
   color: var(--text-color);
   text-decoration: none;
 }
+
 ul {
   list-style: none;
 }
@@ -63,10 +65,10 @@ ul {
   color: (var --text-color);
 }
 
-.main {
+.hero {
   background-color: rgba(47, 48, 58, 1);
 }
-.main-phrase {
+.hero-text {
   color: var(--special-color);
   font-family: Roboto;
   font-weight: 900;
@@ -100,7 +102,7 @@ ul {
   text-align: center;
 }
 
-.advantage {
+.advantages {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -167,7 +169,7 @@ a.contacts-footer {
   background-color: var(--accent-color);
 }
 
-.projects-name {
+.project-name {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -175,7 +177,7 @@ a.contacts-footer {
   letter-spacing: 0.06em;
 }
 
-.projects-type {
+.project-type {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.88;
